@@ -1,7 +1,5 @@
 <template>
   <div class="content">
-
-
     <el-form
       :label-position="labelPosition"
       label-width="100px"
@@ -40,25 +38,28 @@
 
 <script>
 export default {
+  
   components: {},
 
   props: {},
 
   data: function() {
     return {
+
       formLabelAlign: {
         categorie: "",
         name: "",
         atape_1: "",
         etape_2: "",
         etape_3: ""
-      }
     };
   },
 
   computed: {},
 
-  mounted: function() {},
+  mounted: function() {
+     
+  },
 
   methods: {
     nSubmit() {
